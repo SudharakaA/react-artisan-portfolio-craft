@@ -12,21 +12,21 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-2 text-lg">
             <p className="mb-4">
-              Hello! I'm Sudharaka, a Software Quality Engineer with expertise in blockchain development, 
-              web applications, and software quality assurance. I'm passionate about creating secure and 
-              efficient applications that solve real-world problems.
+              Hello! I'm Sudharaka, a DevOps Engineer with expertise in cloud infrastructure, CI/CD pipelines,
+              and containerization. I'm passionate about automating deployment processes and building scalable,
+              resilient systems that solve real-world problems.
             </p>
             <p className="mb-4">
-              Currently, I'm working on projects that range from blockchain-based dApps to 
-              web applications for government departments. I have experience working with various 
-              technologies and programming languages to deliver high-quality software solutions.
+              Currently, I'm working on projects that involve setting up infrastructure as code,
+              implementing monitoring solutions, and optimizing cloud resource utilization. I have experience
+              with various cloud providers and container orchestration platforms.
             </p>
             <p className="mb-4">
               Here are a few technologies I've been working with recently:
             </p>
             
             <ul className="grid grid-cols-2 gap-2 max-w-md mb-4">
-              {["JavaScript", "React", "Node.js", "SQL", "Python", "Solidity"].map((tech) => (
+              {["Docker", "Kubernetes", "AWS", "Terraform", "Jenkins", "GitHub Actions"].map((tech) => (
                 <li key={tech} className="flex items-center">
                   <span className="text-portfolio-teal mr-2">▹</span> {tech}
                 </li>
