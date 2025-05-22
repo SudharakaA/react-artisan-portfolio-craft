@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,59 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-portfolio-navy text-portfolio-light font-inter;
+    font-family: 'Inter', sans-serif;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    @apply bg-portfolio-teal/30 text-portfolio-lightest;
+  }
+}
+
+/* Custom styles */
+.nav-link {
+  @apply relative text-portfolio-lightest text-sm hover:text-portfolio-teal transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 bottom-0 w-0 h-[1px] bg-portfolio-teal transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.section-heading {
+  @apply flex items-center text-2xl sm:text-3xl font-semibold text-portfolio-lightest mb-8;
+}
+
+.section-heading::after {
+  content: '';
+  @apply h-[1px] bg-portfolio-light/20 flex-grow ml-4;
+}
+
+/* Projects */
+.project-card {
+  @apply relative rounded-md overflow-hidden border border-portfolio-light/10 hover:border-portfolio-teal/50 transition-all duration-300;
+}
+
+.project-card:hover .project-image {
+  @apply opacity-20;
+}
+
+.project-card:hover .project-content {
+  @apply opacity-100;
+}
+
+.project-image {
+  @apply w-full h-full object-cover transition-opacity duration-300;
+}
+
+.project-content {
+  @apply absolute inset-0 flex flex-col justify-center p-6 opacity-0 transition-opacity duration-300;
 }
