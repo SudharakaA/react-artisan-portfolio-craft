@@ -37,9 +37,9 @@ const About = () => {
           <div className="relative group mx-auto md:mx-0">
             <div className="relative z-10 bg-portfolio-navy border-2 border-portfolio-teal rounded overflow-hidden w-64 h-64">
               <img 
-                src="/placeholder.svg" 
+                src="/lovable-uploads/38b8e14c-420a-45d5-ae6b-c006f4418da5.png" 
                 alt="Sudharaka Ashen" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                className="w-full h-full object-cover transition-all duration-300"
               />
             </div>
             <div className="absolute top-4 left-4 w-64 h-64 border-2 border-portfolio-teal rounded z-0 transition-all duration-300 group-hover:translate-x-1 group-hover:translate-y-1"></div>
