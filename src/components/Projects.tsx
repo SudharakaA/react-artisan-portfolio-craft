@@ -10,7 +10,7 @@ const Projects = () => {
       image: "/placeholder.svg",
       technologies: ["Ethereum", "Solidity", "Web3.js", "MetaMask", "React"],
       githubLink: "https://github.com/SudharakaA",
-      demoLink: "https://portfolio-lemon-delta-53.vercel.app",
+      demoLink: "https://github.com/SudharakaA/TokenTransfer_dAPP-to-Connect-Blockchain-N",
       date: "JAN 2025"
     },
     {
@@ -19,7 +19,7 @@ const Projects = () => {
       image: "/placeholder.svg",
       technologies: ["Node.js", "MongoDB", "Express", "Payment Gateways", "Docker"],
       githubLink: "https://github.com/SudharakaA",
-      demoLink: "https://portfolio-lemon-delta-53.vercel.app",
+      demoLink: "https://github.com/SudharakaA/calculation",
       reversed: true,
       date: "NOV 2024"
     },
@@ -27,9 +27,9 @@ const Projects = () => {
       title: "Real Time Water Level In Major Rivers",
       description: "Developed a web application specifically tailored for the Irrigation Department's needs. This application enables them to record their daily water level gauges, providing them with a valuable tool for monitoring and managing their water resources effectively.",
       image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "IoT Sensors", "Real-time Data", "AWS"],
+      technologies: ["React", "Node.js", "IoT Sensors", "Real-time Data"],
       githubLink: "https://github.com/SudharakaA",
-      demoLink: "https://portfolio-lemon-delta-53.vercel.app",
+      demoLink: "https://github.com/SudharakaA/Web-Irr",
       date: "MAR 2024"
     },
   ];
