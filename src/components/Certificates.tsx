@@ -5,23 +5,23 @@ import { FileText, Calendar } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     {
-      title: "AWS Certified DevOps Engineer - Professional",
-      issuer: "Amazon Web Services",
+      title: "Rest API (Intermediate)",
+      issuer: "Hackerrank",
+      year: "2025"
+    },
+    {
+      title: "Frontend Development (React)",
+      issuer: "Hackerrank",
       year: "2024"
     },
     {
-      title: "Certified Kubernetes Administrator (CKA)",
-      issuer: "Cloud Native Computing Foundation",
-      year: "2023"
+      title: "Introduction To Generative AI",
+      issuer: "Google Cloud Skills Boost",
+      year: "2024"
     },
     {
-      title: "HashiCorp Certified: Terraform Associate",
-      issuer: "HashiCorp",
-      year: "2023"
-    },
-    {
-      title: "Docker Certified Associate",
-      issuer: "Docker, Inc.",
+      title: "Introduction To Cybersecurity",
+      issuer: "Cisco Networking Academy",
       year: "2022"
     }
   ];
@@ -49,6 +49,10 @@ const Certificates = () => {
               </div>
             </div>
           ))}
+        </div>
+        
+        <div className="text-center mt-12">
+          <p className="text-portfolio-light italic">**There is more certification licenses on my LinkedIn**</p>
         </div>
       </div>
     </section>

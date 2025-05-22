@@ -5,29 +5,32 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Cloud Infrastructure Automation",
-      description: "Designed and implemented a comprehensive infrastructure as code solution using Terraform and AWS CloudFormation. Reduced deployment time by 70% and improved infrastructure consistency across multiple environments with automated testing and validation.",
+      title: "Blockchain Token Transfer dApp",
+      description: "Developed a decentralized application (dApp) that enables secure token transfers on the Ethereum blockchain. Implemented a smart contract for handling token balance and transactions using Solidity. Integrated MetaMask wallet authentication for seamless user experience.",
       image: "/placeholder.svg",
-      technologies: ["Terraform", "AWS", "CloudFormation", "Python", "GitHub Actions"],
+      technologies: ["Ethereum", "Solidity", "Web3.js", "MetaMask", "React"],
       githubLink: "https://github.com/SudharakaA",
       demoLink: "https://portfolio-lemon-delta-53.vercel.app",
+      date: "JAN 2025"
     },
     {
-      title: "Containerized Microservices Platform",
-      description: "Developed a Kubernetes-based platform for deploying and managing microservices. Implemented auto-scaling, service mesh with Istio, and comprehensive monitoring using Prometheus and Grafana dashboards for real-time visibility into application performance.",
+      title: "TAXGEN",
+      description: "Developed and executed tax calculations for in-person and different types of businesses. Users can manage their bank accounts and the payments they made each month. Incorporated payment gateways to facilitate seamless tax payments for users.",
       image: "/placeholder.svg",
-      technologies: ["Kubernetes", "Docker", "Istio", "Prometheus", "Grafana"],
+      technologies: ["Node.js", "MongoDB", "Express", "Payment Gateways", "Docker"],
       githubLink: "https://github.com/SudharakaA",
       demoLink: "https://portfolio-lemon-delta-53.vercel.app",
       reversed: true,
+      date: "NOV 2024"
     },
     {
-      title: "CI/CD Pipeline Optimization",
-      description: "Created an optimized CI/CD pipeline using Jenkins and GitLab CI that reduced build times by 45% and enabled zero-downtime deployments. Implemented automated security scanning, code quality checks, and integration testing to ensure robust releases.",
+      title: "Real Time Water Level In Major Rivers",
+      description: "Developed a web application specifically tailored for the Irrigation Department's needs. This application enables them to record their daily water level gauges, providing them with a valuable tool for monitoring and managing their water resources effectively.",
       image: "/placeholder.svg",
-      technologies: ["Jenkins", "GitLab CI", "Docker", "Ansible", "SonarQube"],
+      technologies: ["React", "Node.js", "IoT Sensors", "Real-time Data", "AWS"],
       githubLink: "https://github.com/SudharakaA",
       demoLink: "https://portfolio-lemon-delta-53.vercel.app",
+      date: "MAR 2024"
     },
   ];
 
@@ -49,8 +52,13 @@ const Projects = () => {
               githubLink={project.githubLink}
               demoLink={project.demoLink}
               reversed={project.reversed}
+              date={project.date}
             />
           ))}
+        </div>
+        
+        <div className="text-center mt-12">
+          <p className="text-portfolio-light italic">**There is more projects on my Github**</p>
         </div>
       </div>
     </section>

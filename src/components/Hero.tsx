@@ -12,11 +12,11 @@ const Hero = () => {
           Sudharaka Ashen.
         </h1>
         <h2 className="text-4xl md:text-6xl font-bold text-portfolio-light mb-8">
-          DevOps Engineer.
+          DevOps Engineer & Developer.
         </h2>
         <p className="text-portfolio-light max-w-xl text-lg mb-12">
-          I'm a DevOps engineer specializing in building and maintaining robust CI/CD pipelines and cloud infrastructure.
-          Currently, I'm focused on implementing automated deployment solutions and optimizing cloud resources.
+          I'm a DevOps engineer with expertise in blockchain development, cloud infrastructure, and web applications. 
+          Currently, I'm focused on building secure and efficient solutions for various industries.
         </p>
         <Button 
           asChild

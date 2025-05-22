@@ -1,6 +1,6 @@
 
 import React from "react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Calendar } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -10,6 +10,7 @@ interface ProjectCardProps {
   githubLink?: string;
   demoLink?: string;
   reversed?: boolean;
+  date?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -20,6 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   githubLink,
   demoLink,
   reversed = false,
+  date,
 }) => {
   return (
     <div className={`relative flex flex-col ${reversed ? 'md:flex-row-reverse' : 'md:flex-row'} mb-24`}>
@@ -48,7 +50,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         } w-full md:w-1/2 mt-4 md:mt-0`}
       >
         <p className="text-portfolio-teal font-mono mb-1">Featured Project</p>
-        <h3 className="text-2xl font-bold text-portfolio-lightest mb-4">{title}</h3>
+        <div className="flex items-center gap-2 mb-1">
+          <h3 className="text-2xl font-bold text-portfolio-lightest">{title}</h3>
+          {date && (
+            <div className="flex items-center text-portfolio-light/70">
+              <Calendar size={16} className="mr-1" />
+              <span className="text-sm">{date}</span>
+            </div>
+          )}
+        </div>
         <div className="bg-portfolio-dark/80 backdrop-blur p-6 rounded shadow-xl mb-4 w-full">
           <p className="text-portfolio-light">{description}</p>
         </div>

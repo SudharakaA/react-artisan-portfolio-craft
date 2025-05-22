@@ -4,20 +4,20 @@ import React from "react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Cloud & Infrastructure",
-      skills: ["AWS", "Azure", "GCP", "Terraform", "CloudFormation", "Ansible", "Packer"],
+      title: "Programming Languages",
+      skills: ["C/C++/C#", "Java", "SQL", "Python", "HTML", "CSS", "PHP", "JavaScript"],
     },
     {
-      title: "CI/CD & Automation",
-      skills: ["Jenkins", "GitHub Actions", "GitLab CI", "CircleCI", "ArgoCD", "Bash Scripting", "Python"],
+      title: "Core",
+      skills: ["Data Structures and Algorithms", "SQL and NoSQL Databases", "Object-Oriented Programming", "Cloud Computing", "Web/Rest API", "AI/ML"],
     },
     {
-      title: "Containers & Orchestration",
-      skills: ["Docker", "Kubernetes", "Helm", "Istio", "Docker Compose", "Harbor", "Podman"],
+      title: "Tools & Technologies",
+      skills: ["React", "VS Code", "Node", "Docker", "Xcode", "IntelliJ IDEA", "SQL Developer", "Git Hub", "Azure Data Studio", "SpringBoot", "MySQL", "PostgreSQL", "Vite", "OpenAI", "Postman", "Paralells"],
     },
     {
-      title: "Monitoring & Observability",
-      skills: ["Prometheus", "Grafana", "ELK Stack", "Datadog", "Jaeger", "New Relic", "CloudWatch"],
+      title: "Soft Skills",
+      skills: ["Time Management", "Teamwork", "Critical Thinking"],
     },
   ];
 
