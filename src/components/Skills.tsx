@@ -4,16 +4,16 @@ import React from "react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Tailwind CSS", "SASS"],
+      title: "Programming Languages",
+      skills: ["C/C++/C#", "Java", "SQL", "Python", "HTML", "CSS", "PHP", "JavaScript"],
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
+      title: "Core",
+      skills: ["Data Structures and Algorithms", "SQL and NoSQL Databases", "Object-Oriented Programming", "Cloud Computing", "Web/Rest API", "AI/ML"],
     },
     {
-      title: "Tools & Others",
-      skills: ["Git", "Docker", "CI/CD", "Jest", "Cypress", "Figma", "Responsive Design", "Performance Optimization"],
+      title: "Tools & Technologies",
+      skills: ["React", "VS Code", "Node", "Docker", "Git Hub", "Xcode", "IntelliJ IDEA", "SQL Developer", "SpringBoot", "MySQL", "Postgre SQL", "Vite", "OpenAI", "Postman"],
     },
   ];
 

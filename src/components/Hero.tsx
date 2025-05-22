@@ -9,14 +9,14 @@ const Hero = () => {
       <div className="max-w-4xl animate-fade-in">
         <p className="text-portfolio-teal mb-5 font-mono">Hi, my name is</p>
         <h1 className="text-5xl md:text-7xl font-bold text-portfolio-lightest mb-4">
-          John Doe.
+          Sudharaka Ashen.
         </h1>
         <h2 className="text-4xl md:text-6xl font-bold text-portfolio-light mb-8">
-          I build things for the web.
+          Software Quality Engineer.
         </h2>
         <p className="text-portfolio-light max-w-xl text-lg mb-12">
           I'm a software developer specializing in building exceptional digital experiences. 
-          Currently, I'm focused on building accessible, human-centered products.
+          Currently, I'm focused on developing secure, efficient applications for various industries.
         </p>
         <Button 
           asChild

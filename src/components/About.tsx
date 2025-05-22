@@ -12,22 +12,21 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-2 text-lg">
             <p className="mb-4">
-              Hello! I'm John, a passionate web developer with a love for creating beautiful, 
-              functional digital experiences. My journey in web development started back in 
-              2018 when I decided to try editing custom Tumblr themes — turns out hacking together 
-              a custom reblog button taught me a lot about HTML & CSS!
+              Hello! I'm Sudharaka, a Software Quality Engineer with expertise in blockchain development, 
+              web applications, and software quality assurance. I'm passionate about creating secure and 
+              efficient applications that solve real-world problems.
             </p>
             <p className="mb-4">
-              Fast-forward to today, and I've had the privilege of working at an advertising agency, 
-              a start-up, and a large corporation. My main focus these days is building accessible, 
-              inclusive products and digital experiences for a variety of clients.
+              Currently, I'm working on projects that range from blockchain-based dApps to 
+              web applications for government departments. I have experience working with various 
+              technologies and programming languages to deliver high-quality software solutions.
             </p>
             <p className="mb-4">
               Here are a few technologies I've been working with recently:
             </p>
             
             <ul className="grid grid-cols-2 gap-2 max-w-md mb-4">
-              {["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Node.js", "Tailwind CSS"].map((tech) => (
+              {["JavaScript", "React", "Node.js", "SQL", "Python", "Solidity"].map((tech) => (
                 <li key={tech} className="flex items-center">
                   <span className="text-portfolio-teal mr-2">▹</span> {tech}
                 </li>
@@ -39,7 +38,7 @@ const About = () => {
             <div className="relative z-10 bg-portfolio-navy border-2 border-portfolio-teal rounded overflow-hidden w-64 h-64">
               <img 
                 src="/placeholder.svg" 
-                alt="John Doe" 
+                alt="Sudharaka Ashen" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
               />
             </div>

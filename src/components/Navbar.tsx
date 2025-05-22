@@ -21,6 +21,8 @@ const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
+    { name: "Education", href: "#education" },
+    { name: "Certificates", href: "#certificates" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -36,11 +38,11 @@ const Navbar = () => {
           className="text-portfolio-teal text-2xl font-bold"
           aria-label="Home"
         >
-          JD
+          SA
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link, index) => (
             <a
               key={link.name}
@@ -56,7 +58,7 @@ const Navbar = () => {
             className="border border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 rounded px-4 py-2"
             variant="outline"
           >
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/SudharakaA" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </Button>
@@ -94,7 +96,7 @@ const Navbar = () => {
             className="mt-4 border border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 rounded w-full"
             variant="outline"
           >
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/SudharakaA" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </Button>
