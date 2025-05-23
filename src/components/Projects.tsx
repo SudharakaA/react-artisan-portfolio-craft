@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "Blockchain Token Transfer dApp",
       description: "Developed a decentralized application (dApp) that enables secure token transfers on the Ethereum blockchain. Implemented a smart contract for handling token balance and transactions using Solidity. Integrated MetaMask wallet authentication for seamless user experience.",
-      image: "/placeholder.svg",
+      image: "/uploads/Token.jpeg",
       technologies: ["Ethereum", "Solidity", "Web3.js", "MetaMask", "React"],
       githubLink: "https://github.com/SudharakaA",
       demoLink: "https://github.com/SudharakaA/TokenTransfer_dAPP-to-Connect-Blockchain-N",
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "TAXGEN",
       description: "Developed and executed tax calculations for in-person and different types of businesses. Users can manage their bank accounts and the payments they made each month. Incorporated payment gateways to facilitate seamless tax payments for users.",
-      image: "/placeholder.svg",
+      image: "/uploads/TaxGen.jpeg",
       technologies: ["Node.js", "MongoDB", "Express", "Payment Gateways", "Docker"],
       githubLink: "https://github.com/SudharakaA",
       demoLink: "https://github.com/SudharakaA/calculation",
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "Real Time Water Level In Major Rivers",
       description: "Developed a web application specifically tailored for the Irrigation Department's needs. This application enables them to record their daily water level gauges, providing them with a valuable tool for monitoring and managing their water resources effectively.",
-      image: "/placeholder.svg",
+      image: "/uploads/WaterLevelMonitoring.jpeg",
       technologies: ["React", "Node.js", "IoT Sensors", "Real-time Data"],
       githubLink: "https://github.com/SudharakaA",
       demoLink: "https://github.com/SudharakaA/Web-Irr",

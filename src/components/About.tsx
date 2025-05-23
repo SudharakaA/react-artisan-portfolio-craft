@@ -37,7 +37,7 @@ const About = () => {
           <div className="relative group mx-auto md:mx-0">
             <div className="relative z-10 bg-portfolio-navy border-2 border-portfolio-teal rounded overflow-hidden w-64 h-64">
               <img 
-                src="/lovable-uploads/38b8e14c-420a-45d5-ae6b-c006f4418da5.png" 
+                src="/uploads/38b8e14c-420a-45d5-ae6b-c006f4418da5.png" 
                 alt="Sudharaka Ashen" 
                 className="w-full h-full object-cover transition-all duration-300"
               />
